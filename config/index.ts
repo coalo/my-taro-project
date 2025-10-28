@@ -5,6 +5,22 @@ import prodConfig from './prod'
 
 // https://taro-docs.jd.com/docs/next/config#defineconfig-辅助函数
 export default defineConfig<'webpack5'>(async (merge, { command, mode }) => {
+  // 根据构建平台设置不同的输出目录
+  const platform = process.env.TARO_ENV || 'h5'
+  const outputMap: Record<string, string> = {
+    weapp: 'dist/weapp',
+    h5: 'dist/h5',
+    rn: 'dist/rn',
+    // 其他平台（如需要可添加）
+    alipay: 'dist/alipay',
+    swan: 'dist/swan',
+    tt: 'dist/tt',
+    qq: 'dist/qq',
+    jd: 'dist/jd',
+    quickapp: 'dist/quickapp',
+  }
+  const outputRoot = outputMap[platform] || 'dist'
+
   const baseConfig: UserConfigExport<'webpack5'> = {
     projectName: 'naixue-test',
     date: '2025-10-28',
@@ -16,7 +32,7 @@ export default defineConfig<'webpack5'>(async (merge, { command, mode }) => {
       828: 1.81 / 2
     },
     sourceRoot: 'src',
-    outputRoot: 'dist',
+    outputRoot: outputRoot, // 根据平台动态设置输出目录
     plugins: [],
     defineConstants: {
     },
