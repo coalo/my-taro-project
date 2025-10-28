@@ -10,31 +10,31 @@ var taro_app_library;
 
 var moduleMap = {
 	"./react": function() {
-		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-6TBQVUF2_js"), __webpack_require__.e("node_modules_taro_weapp_prebundle_react_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/react.js */ "./node_modules/.taro/weapp/prebundle/react.js")); }; });
+		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-XDFXK7K5_js"), __webpack_require__.e("node_modules_taro_weapp_prebundle_react_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/react.js */ "./node_modules/.taro/weapp/prebundle/react.js")); }; });
 	},
 	"./react-redux": function() {
-		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-AXN6CDIK_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-BUHVOZRY_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-6TBQVUF2_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_react-redux_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/react-redux.js */ "./node_modules/.taro/weapp/prebundle/react-redux.js")); }; });
+		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-HD2FKCVL_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-4MNUZVLC_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-XDFXK7K5_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_react-redux_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/react-redux.js */ "./node_modules/.taro/weapp/prebundle/react-redux.js")); }; });
 	},
 	"./@tarojs/taro": function() {
-		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-AXN6CDIK_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-BUHVOZRY_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_tarojs_taro_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/@tarojs_taro.js */ "./node_modules/.taro/weapp/prebundle/@tarojs_taro.js")); }; });
+		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-HD2FKCVL_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-4MNUZVLC_js"), __webpack_require__.e("node_modules_taro_weapp_prebundle_tarojs_taro_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/@tarojs_taro.js */ "./node_modules/.taro/weapp/prebundle/@tarojs_taro.js")); }; });
 	},
 	"./@reduxjs/toolkit": function() {
-		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-AXN6CDIK_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-BUHVOZRY_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_reduxjs_toolkit_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/@reduxjs_toolkit.js */ "./node_modules/.taro/weapp/prebundle/@reduxjs_toolkit.js")); }; });
-	},
-	"./@tarojs/plugin-framework-react/dist/runtime": function() {
-		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-AXN6CDIK_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-BUHVOZRY_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_tarojs_plugin-framework-react_dist_runtime_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/@tarojs_plugin-framework-react_dist_runtime.js */ "./node_modules/.taro/weapp/prebundle/@tarojs_plugin-framework-react_dist_runtime.js")); }; });
-	},
-	"./@tarojs/plugin-platform-weapp/dist/runtime": function() {
-		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-AXN6CDIK_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_tarojs_plugin-platform-weapp_dist_runtime_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/@tarojs_plugin-platform-weapp_dist_runtime.js */ "./node_modules/.taro/weapp/prebundle/@tarojs_plugin-platform-weapp_dist_runtime.js")); }; });
-	},
-	"./@tarojs/runtime": function() {
-		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-AXN6CDIK_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-BUHVOZRY_js"), __webpack_require__.e("node_modules_taro_weapp_prebundle_tarojs_runtime_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/@tarojs_runtime.js */ "./node_modules/.taro/weapp/prebundle/@tarojs_runtime.js")); }; });
+		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-HD2FKCVL_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-4MNUZVLC_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_reduxjs_toolkit_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/@reduxjs_toolkit.js */ "./node_modules/.taro/weapp/prebundle/@reduxjs_toolkit.js")); }; });
 	},
 	"./react/jsx-runtime": function() {
-		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-6TBQVUF2_js"), __webpack_require__.e("node_modules_taro_weapp_prebundle_react_jsx-runtime_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/react_jsx-runtime.js */ "./node_modules/.taro/weapp/prebundle/react_jsx-runtime.js")); }; });
+		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-XDFXK7K5_js"), __webpack_require__.e("node_modules_taro_weapp_prebundle_react_jsx-runtime_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/react_jsx-runtime.js */ "./node_modules/.taro/weapp/prebundle/react_jsx-runtime.js")); }; });
+	},
+	"./@tarojs/plugin-framework-react/dist/runtime": function() {
+		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-HD2FKCVL_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-4MNUZVLC_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_tarojs_plugin-framework-react_dist_runtime_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/@tarojs_plugin-framework-react_dist_runtime.js */ "./node_modules/.taro/weapp/prebundle/@tarojs_plugin-framework-react_dist_runtime.js")); }; });
+	},
+	"./@tarojs/plugin-platform-weapp/dist/runtime": function() {
+		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-HD2FKCVL_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_tarojs_plugin-platform-weapp_dist_runtime_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/@tarojs_plugin-platform-weapp_dist_runtime.js */ "./node_modules/.taro/weapp/prebundle/@tarojs_plugin-platform-weapp_dist_runtime.js")); }; });
+	},
+	"./@tarojs/runtime": function() {
+		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-HD2FKCVL_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-4MNUZVLC_js"), __webpack_require__.e("node_modules_taro_weapp_prebundle_tarojs_runtime_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/@tarojs_runtime.js */ "./node_modules/.taro/weapp/prebundle/@tarojs_runtime.js")); }; });
 	},
 	"./react-dom": function() {
-		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-AXN6CDIK_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-BUHVOZRY_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-6TBQVUF2_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_react-dom_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/react-dom.js */ "./node_modules/.taro/weapp/prebundle/react-dom.js")); }; });
+		return Promise.all([__webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-HD2FKCVL_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-4MNUZVLC_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_chunk-XDFXK7K5_js"), __webpack_require__.e("vendors-node_modules_taro_weapp_prebundle_react-dom_js")]).then(function() { return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/react-dom.js */ "./node_modules/.taro/weapp/prebundle/react-dom.js")); }; });
 	}
 };
 var get = function(module, getScope) {
@@ -77,6 +77,9 @@ var taroModuleMap = {
 	"./@reduxjs/toolkit": function() {
 		return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/@reduxjs_toolkit.js */ "./node_modules/.taro/weapp/prebundle/@reduxjs_toolkit.js")); };
 	},
+	"./react/jsx-runtime": function() {
+		return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/react_jsx-runtime.js */ "./node_modules/.taro/weapp/prebundle/react_jsx-runtime.js")); };
+	},
 	"./@tarojs/plugin-framework-react/dist/runtime": function() {
 		return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/@tarojs_plugin-framework-react_dist_runtime.js */ "./node_modules/.taro/weapp/prebundle/@tarojs_plugin-framework-react_dist_runtime.js")); };
 	},
@@ -85,9 +88,6 @@ var taroModuleMap = {
 	},
 	"./@tarojs/runtime": function() {
 		return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/@tarojs_runtime.js */ "./node_modules/.taro/weapp/prebundle/@tarojs_runtime.js")); };
-	},
-	"./react/jsx-runtime": function() {
-		return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/react_jsx-runtime.js */ "./node_modules/.taro/weapp/prebundle/react_jsx-runtime.js")); };
 	},
 	"./react-dom": function() {
 		return function() { return (__webpack_require__(/*! ./node_modules/.taro/weapp/prebundle/react-dom.js */ "./node_modules/.taro/weapp/prebundle/react-dom.js")); };

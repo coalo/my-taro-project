@@ -1,10 +1,10 @@
 "use strict";
 (wx["webpackJsonp"] = wx["webpackJsonp"] || []).push([["taro"],{
 
-/***/ "./node_modules/.pnpm/@tarojs+plugin-platform-weapp@4.1.7_@tarojs+service@4.1.7_@tarojs+shared@4.1.7/node_modules/@tarojs/plugin-platform-weapp/dist/components-react.js":
-/*!*******************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@tarojs+plugin-platform-weapp@4.1.7_@tarojs+service@4.1.7_@tarojs+shared@4.1.7/node_modules/@tarojs/plugin-platform-weapp/dist/components-react.js ***!
-  \*******************************************************************************************************************************************************************************/
+/***/ "./node_modules/@tarojs/plugin-platform-weapp/dist/components-react.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@tarojs/plugin-platform-weapp/dist/components-react.js ***!
+  \*****************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -98,10 +98,10 @@ var VerticalDragGestureHandler = 'vertical-drag-gesture-handler';
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@tarojs+webpack5-runner@4.1.7_@babel+core@7.28.5_@swc+core@1.3.96_@tarojs+runtime@4.1.7_ce75a8fb2cfb92c3bb659fc0f7ce1e39/node_modules/@tarojs/webpack5-runner/dist/template/comp.js":
-/*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@tarojs+webpack5-runner@4.1.7_@babel+core@7.28.5_@swc+core@1.3.96_@tarojs+runtime@4.1.7_ce75a8fb2cfb92c3bb659fc0f7ce1e39/node_modules/@tarojs/webpack5-runner/dist/template/comp.js ***!
-  \****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/@tarojs/webpack5-runner/dist/template/comp.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@tarojs/webpack5-runner/dist/template/comp.js ***!
+  \********************************************************************/
 /***/ (function(__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) {
 
 /* harmony import */ var _tarojs_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @tarojs/runtime */ "webpack/container/remote/@tarojs/runtime");
@@ -113,10 +113,10 @@ Component((0,_tarojs_runtime__WEBPACK_IMPORTED_MODULE_0__.createRecursiveCompone
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@tarojs+webpack5-runner@4.1.7_@babel+core@7.28.5_@swc+core@1.3.96_@tarojs+runtime@4.1.7_ce75a8fb2cfb92c3bb659fc0f7ce1e39/node_modules/@tarojs/webpack5-runner/dist/template/custom-wrapper.js":
-/*!**************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@tarojs+webpack5-runner@4.1.7_@babel+core@7.28.5_@swc+core@1.3.96_@tarojs+runtime@4.1.7_ce75a8fb2cfb92c3bb659fc0f7ce1e39/node_modules/@tarojs/webpack5-runner/dist/template/custom-wrapper.js ***!
-  \**************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/@tarojs/webpack5-runner/dist/template/custom-wrapper.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@tarojs/webpack5-runner/dist/template/custom-wrapper.js ***!
+  \******************************************************************************/
 /***/ (function(__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) {
 
 /* harmony import */ var _tarojs_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @tarojs/runtime */ "webpack/container/remote/@tarojs/runtime");

@@ -49,7 +49,7 @@ const mockCategories = [
 const mockProducts = [
   {
     id: '1',
-    name: '霸气芝士草莓1',
+    name: '霸气芝士草莓123',
     subtitle: '新鲜草莓+醇厚芝士',
     coverImage: 'https://via.placeholder.com/300x300/FF6A3C/FFFFFF?text=Product+1',
     images: [],

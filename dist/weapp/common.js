@@ -155,7 +155,7 @@ var useAppSelector = react_redux__WEBPACK_IMPORTED_MODULE_1__.useSelector;
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 /* unused harmony exports addToCart, updateQuantity, removeFromCart, toggleChecked, toggleCheckAll, clearCart, removeCheckedItems, setCartItems */
-/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.28.4/node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "./node_modules/.pnpm/@babel+runtime@7.28.4/node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
 /* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @reduxjs/toolkit */ "webpack/container/remote/@reduxjs/toolkit");
 /* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_1__);
 
@@ -213,7 +213,7 @@ var cartSlice = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_1__.createSlice)({
         state.items[existingIndex].quantity += 1;
       } else {
         // 不存在，添加新项
-        state.items.push((0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])((0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
+        state.items.push((0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])((0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
           id: "".concat(productId, "_").concat(Date.now())
         }, action.payload), {}, {
           quantity: 1,
@@ -340,8 +340,8 @@ var _cartSlice$actions = cartSlice.actions,
 /* harmony export */   setToken: function() { return /* binding */ setToken; }
 /* harmony export */ });
 /* unused harmony exports login, getUserInfo, setUserInfo, logout, setAddresses, addAddress, updateAddress, deleteAddress, setDefaultAddress, setCoupons, updatePoints */
-/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.28.4/node_modules/@babel/runtime/helpers/esm/regenerator.js */ "./node_modules/.pnpm/@babel+runtime@7.28.4/node_modules/@babel/runtime/helpers/esm/regenerator.js");
-/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.28.4/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/.pnpm/@babel+runtime@7.28.4/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/regenerator.js */ "./node_modules/@babel/runtime/helpers/esm/regenerator.js");
+/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
 /* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @reduxjs/toolkit */ "webpack/container/remote/@reduxjs/toolkit");
 /* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _utils_storage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../utils/storage */ "./src/utils/storage.ts");
@@ -367,9 +367,9 @@ var initialState = {
 
 // 异步 actions
 var login = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_2__.createAsyncThunk)('user/login', /*#__PURE__*/function () {
-  var _ref = (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])(/*#__PURE__*/(0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().m(function _callee(params) {
+  var _ref = (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])(/*#__PURE__*/(0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().m(function _callee(params) {
     var response;
-    return (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().w(function (_context) {
+    return (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().w(function (_context) {
       while (1) switch (_context.n) {
         case 0:
           _context.n = 1;
@@ -387,9 +387,9 @@ var login = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_2__.createAsyncThunk)('
     return _ref.apply(this, arguments);
   };
 }());
-var getUserInfo = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_2__.createAsyncThunk)('user/getUserInfo', /*#__PURE__*/(0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])(/*#__PURE__*/(0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().m(function _callee2() {
+var getUserInfo = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_2__.createAsyncThunk)('user/getUserInfo', /*#__PURE__*/(0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])(/*#__PURE__*/(0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().m(function _callee2() {
   var response;
-  return (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().w(function (_context2) {
+  return (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().w(function (_context2) {
     while (1) switch (_context2.n) {
       case 0:
         _context2.n = 1;
@@ -514,10 +514,10 @@ var _userSlice$actions = userSlice.actions,
   \******************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.28.4/node_modules/@babel/runtime/helpers/esm/regenerator.js */ "./node_modules/.pnpm/@babel+runtime@7.28.4/node_modules/@babel/runtime/helpers/esm/regenerator.js");
-/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.28.4/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/.pnpm/@babel+runtime@7.28.4/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
-/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.28.4/node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "./node_modules/.pnpm/@babel+runtime@7.28.4/node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.28.4/node_modules/@babel/runtime/helpers/esm/createClass.js */ "./node_modules/.pnpm/@babel+runtime@7.28.4/node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/regenerator.js */ "./node_modules/@babel/runtime/helpers/esm/regenerator.js");
+/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
 /* harmony import */ var _tarojs_taro__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @tarojs/taro */ "webpack/container/remote/@tarojs/taro");
 /* harmony import */ var _tarojs_taro__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_tarojs_taro__WEBPACK_IMPORTED_MODULE_4__);
 
@@ -531,9 +531,9 @@ var _userSlice$actions = userSlice.actions,
 
 var Storage = /*#__PURE__*/function () {
   function Storage() {
-    (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Storage);
+    (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Storage);
   }
-  return (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_3__["default"])(Storage, [{
+  return (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_3__["default"])(Storage, [{
     key: "set",
     value:
     /**
@@ -595,9 +595,9 @@ var Storage = /*#__PURE__*/function () {
   }, {
     key: "setAsync",
     value: (function () {
-      var _setAsync = (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])(/*#__PURE__*/(0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().m(function _callee(key, data) {
+      var _setAsync = (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])(/*#__PURE__*/(0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().m(function _callee(key, data) {
         var value, _t;
-        return (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().w(function (_context) {
+        return (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().w(function (_context) {
           while (1) switch (_context.p = _context.n) {
             case 0:
               _context.p = 0;
@@ -631,9 +631,9 @@ var Storage = /*#__PURE__*/function () {
   }, {
     key: "getAsync",
     value: (function () {
-      var _getAsync = (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])(/*#__PURE__*/(0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().m(function _callee2(key) {
+      var _getAsync = (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])(/*#__PURE__*/(0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().m(function _callee2(key) {
         var res, _t2;
-        return (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().w(function (_context2) {
+        return (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().w(function (_context2) {
           while (1) switch (_context2.p = _context2.n) {
             case 0:
               _context2.p = 0;
@@ -663,9 +663,9 @@ var Storage = /*#__PURE__*/function () {
   }, {
     key: "removeAsync",
     value: (function () {
-      var _removeAsync = (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])(/*#__PURE__*/(0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().m(function _callee3(key) {
+      var _removeAsync = (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])(/*#__PURE__*/(0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().m(function _callee3(key) {
         var _t3;
-        return (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().w(function (_context3) {
+        return (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().w(function (_context3) {
           while (1) switch (_context3.p = _context3.n) {
             case 0:
               _context3.p = 0;
@@ -697,9 +697,9 @@ var Storage = /*#__PURE__*/function () {
   }, {
     key: "clearAsync",
     value: (function () {
-      var _clearAsync = (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])(/*#__PURE__*/(0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().m(function _callee4() {
+      var _clearAsync = (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])(/*#__PURE__*/(0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().m(function _callee4() {
         var _t4;
-        return (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_pnpm_babel_runtime_7_28_4_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().w(function (_context4) {
+        return (0,_Applications_XAMPP_xamppfiles_htdocs_taro_naixue_test_node_modules_babel_runtime_helpers_esm_regenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])().w(function (_context4) {
           while (1) switch (_context4.p = _context4.n) {
             case 0:
               _context4.p = 0;
