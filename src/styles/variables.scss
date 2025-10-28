@@ -1,0 +1,73 @@
+/**
+ * 全局样式变量
+ */
+
+// 主题色
+$primary-color: #FF6A3C;
+$success-color: #52C41A;
+$warning-color: #FAAD14;
+$error-color: #F5222D;
+$info-color: #1677FF;
+
+// 文字颜色
+$text-color-primary: #333333;
+$text-color-secondary: #666666;
+$text-color-tertiary: #999999;
+$text-color-disabled: #CCCCCC;
+$text-color-white: #FFFFFF;
+
+// 背景色
+$bg-color-page: #F7F8FA;
+$bg-color-container: #FFFFFF;
+$bg-color-mask: rgba(0, 0, 0, 0.5);
+
+// 边框色
+$border-color: #EEEEEE;
+$border-color-light: #F5F5F5;
+
+// 间距
+$spacing-xs: 8px;
+$spacing-sm: 12px;
+$spacing-md: 16px;
+$spacing-lg: 20px;
+$spacing-xl: 24px;
+
+// 圆角
+$border-radius-xs: 4px;
+$border-radius-sm: 8px;
+$border-radius-md: 12px;
+$border-radius-lg: 16px;
+$border-radius-round: 50%;
+
+// 字体大小
+$font-size-xs: 20px;  // 10px
+$font-size-sm: 24px;  // 12px
+$font-size-md: 28px;  // 14px
+$font-size-lg: 32px;  // 16px
+$font-size-xl: 36px;  // 18px
+$font-size-xxl: 40px; // 20px
+
+// 行高
+$line-height-base: 1.5;
+
+// 字重
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+
+// 阴影
+$box-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.08);
+$box-shadow-md: 0 4px 8px rgba(0, 0, 0, 0.12);
+$box-shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.16);
+
+// z-index
+$z-index-dropdown: 1000;
+$z-index-modal: 1010;
+$z-index-toast: 1020;
+$z-index-loading: 1030;
+
+// 安全区域
+$safe-area-inset-top: env(safe-area-inset-top);
+$safe-area-inset-bottom: env(safe-area-inset-bottom);
+$safe-area-inset-left: env(safe-area-inset-left);
+$safe-area-inset-right: env(safe-area-inset-right);

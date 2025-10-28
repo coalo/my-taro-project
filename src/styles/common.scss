@@ -1,0 +1,236 @@
+/**
+ * 全局公共样式
+ */
+
+@import './variables.scss';
+
+// 重置样式
+page {
+  background-color: $bg-color-page;
+  font-size: $font-size-md;
+  line-height: $line-height-base;
+  color: $text-color-primary;
+}
+
+// 清除浮动
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+// 单行文本溢出
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 多行文本溢出
+.ellipsis-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.ellipsis-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+// flex 布局
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+// 间距
+.mt-xs { margin-top: $spacing-xs; }
+.mt-sm { margin-top: $spacing-sm; }
+.mt-md { margin-top: $spacing-md; }
+.mt-lg { margin-top: $spacing-lg; }
+.mt-xl { margin-top: $spacing-xl; }
+
+.mb-xs { margin-bottom: $spacing-xs; }
+.mb-sm { margin-bottom: $spacing-sm; }
+.mb-md { margin-bottom: $spacing-md; }
+.mb-lg { margin-bottom: $spacing-lg; }
+.mb-xl { margin-bottom: $spacing-xl; }
+
+.ml-xs { margin-left: $spacing-xs; }
+.ml-sm { margin-left: $spacing-sm; }
+.ml-md { margin-left: $spacing-md; }
+.ml-lg { margin-left: $spacing-lg; }
+.ml-xl { margin-left: $spacing-xl; }
+
+.mr-xs { margin-right: $spacing-xs; }
+.mr-sm { margin-right: $spacing-sm; }
+.mr-md { margin-right: $spacing-md; }
+.mr-lg { margin-right: $spacing-lg; }
+.mr-xl { margin-right: $spacing-xl; }
+
+.pt-xs { padding-top: $spacing-xs; }
+.pt-sm { padding-top: $spacing-sm; }
+.pt-md { padding-top: $spacing-md; }
+.pt-lg { padding-top: $spacing-lg; }
+.pt-xl { padding-top: $spacing-xl; }
+
+.pb-xs { padding-bottom: $spacing-xs; }
+.pb-sm { padding-bottom: $spacing-sm; }
+.pb-md { padding-bottom: $spacing-md; }
+.pb-lg { padding-bottom: $spacing-lg; }
+.pb-xl { padding-bottom: $spacing-xl; }
+
+.pl-xs { padding-left: $spacing-xs; }
+.pl-sm { padding-left: $spacing-sm; }
+.pl-md { padding-left: $spacing-md; }
+.pl-lg { padding-left: $spacing-lg; }
+.pl-xl { padding-left: $spacing-xl; }
+
+.pr-xs { padding-right: $spacing-xs; }
+.pr-sm { padding-right: $spacing-sm; }
+.pr-md { padding-right: $spacing-md; }
+.pr-lg { padding-right: $spacing-lg; }
+.pr-xl { padding-right: $spacing-xl; }
+
+// 文本对齐
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+// 字体大小
+.font-xs { font-size: $font-size-xs; }
+.font-sm { font-size: $font-size-sm; }
+.font-md { font-size: $font-size-md; }
+.font-lg { font-size: $font-size-lg; }
+.font-xl { font-size: $font-size-xl; }
+.font-xxl { font-size: $font-size-xxl; }
+
+// 字体颜色
+.text-primary { color: $text-color-primary; }
+.text-secondary { color: $text-color-secondary; }
+.text-tertiary { color: $text-color-tertiary; }
+.text-disabled { color: $text-color-disabled; }
+.text-white { color: $text-color-white; }
+.text-theme { color: $primary-color; }
+
+// 字重
+.font-normal { font-weight: $font-weight-normal; }
+.font-medium { font-weight: $font-weight-medium; }
+.font-bold { font-weight: $font-weight-bold; }
+
+// 容器
+.container {
+  padding: $spacing-md;
+  background: $bg-color-container;
+}
+
+.card {
+  background: $bg-color-container;
+  border-radius: $border-radius-md;
+  padding: $spacing-md;
+  margin-bottom: $spacing-md;
+}
+
+// 分割线
+.divider {
+  height: 2px;
+  background: $border-color-light;
+}
+
+// 安全区域
+.safe-area-top {
+  padding-top: constant(safe-area-inset-top);
+  padding-top: env(safe-area-inset-top);
+}
+
+.safe-area-bottom {
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+// 按钮
+.button-primary {
+  background: $primary-color;
+  color: $text-color-white;
+  border-radius: $border-radius-sm;
+  padding: $spacing-sm $spacing-md;
+  text-align: center;
+  font-size: $font-size-md;
+}
+
+.button-secondary {
+  background: transparent;
+  color: $primary-color;
+  border: 2px solid $primary-color;
+  border-radius: $border-radius-sm;
+  padding: $spacing-sm $spacing-md;
+  text-align: center;
+  font-size: $font-size-md;
+}
+
+// 价格
+.price {
+  color: $error-color;
+  font-weight: $font-weight-bold;
+  
+  &::before {
+    content: '¥';
+    font-size: 0.8em;
+  }
+}
+
+// 标签
+.tag {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: $border-radius-xs;
+  font-size: $font-size-xs;
+  background: $primary-color;
+  color: $text-color-white;
+}
+
+// 徽标
+.badge {
+  position: absolute;
+  top: -4px;
+  right: -8px;
+  min-width: 16px;
+  height: 16px;
+  line-height: 16px;
+  padding: 0 4px;
+  background: $error-color;
+  color: $text-color-white;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
